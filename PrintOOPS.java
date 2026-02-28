@@ -9,8 +9,6 @@ public class PrintOOPS {
         lines[4] = String.join(" ", "**    **", "**    **", " **     ", "      **");
         lines[5] = String.join(" ", " **  ** ", " **  ** ", " **     ", "  **  **");
         lines[6] = String.join(" ", "   **   ", "   **   ", " **     ", "  ***** ");
-
-        // Print all lines
         for (String line : lines) {
             System.out.println(line);
         }
